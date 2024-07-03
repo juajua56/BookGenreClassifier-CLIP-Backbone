@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ### Train our model from scratch
 You can train the model with the best hyperparameters for each dataset by typing the following command in your terminal:
 ```python
-python ./src/main.py --learning_rate 1e-5 \
+python ./main.py --learning_rate 1e-5 \
                      --batch_size 20 \
                      --input_dim 768 \
                      --output_dim 24 \
