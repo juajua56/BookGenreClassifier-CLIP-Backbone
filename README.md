@@ -23,3 +23,6 @@ python ./main.py --learning_rate 1e-5 \
                      --step_size 5 \
                      --device 'cuda:0'
 ```
+
+## Result (1/35)
+![모델 이미지](assets/Leaderboard.png) 
