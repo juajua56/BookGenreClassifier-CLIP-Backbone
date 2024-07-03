@@ -15,12 +15,11 @@ pip install -r requirements.txt
 ### Train our model from scratch
 You can train the model with the best hyperparameters for each dataset by typing the following command in your terminal:
 ```python
-python ./src/main.py --dataset taobao \
-                     --lr 1e-4 \
-                     --weight_decay 0 \
-                     --tda_layers 4 \
-                     --gnn_layers 1 \
-                     --emb_dim 64 \
-                     --num_epochs 100 \
-                     --batch_size 1024
+python ./src/main.py --learning_rate 1e-5 \
+                     --batch_size 20 \
+                     --input_dim 768 \
+                     --output_dim 24 \
+                     --dropout 0.8 \
+                     --step_size 5 \
+                     --device 'cuda:0'
 ```
