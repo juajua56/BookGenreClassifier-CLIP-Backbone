@@ -25,7 +25,6 @@ def train_model(model, train_dataloader, val_dataloader, criterion, optimizer, s
             optimizer.zero_grad()
             output = model(text, image)
             loss = criterion(output, label)
-            print(loss)
             loss.backward()
             tr_loss += loss.item()
             optimizer.step()
