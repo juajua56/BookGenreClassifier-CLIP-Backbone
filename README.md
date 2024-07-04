@@ -24,5 +24,5 @@ python ./main.py --learning_rate 1e-5 \
                      --device 'cuda:0'
 ```
 
-## Result (1/35)
+## Result (1/35) - [link](https://www.kaggle.com/competitions/jbnu-swuniv-ai/leaderboard)
 ![모델 이미지](assets/Leaderboard.png) 
