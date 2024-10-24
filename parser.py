@@ -4,8 +4,8 @@ def parse_args():
     parser = argparse.ArgumentParser(description="Train a recommendation model.")
 
     # Data arguments
-    parser.add_argument('--data_root', type=str, default='/home/juajua56/train', help='Root directory of the data.')
-    parser.add_argument('--data_path', type=str, default='/home/juajua56/train_data.csv', help='Path to the data CSV file.')
+    parser.add_argument('--data_root', type=str, default='./data/train', help='Root directory of the data.')
+    parser.add_argument('--data_path', type=str, default='./data/train_data.csv', help='Path to the data CSV file.')
 
     # Training hyperparameters
     parser.add_argument('--batch_size', type=int, default=20, help='Batch size for training.')
